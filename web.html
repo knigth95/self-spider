@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>录取查询</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=1440">
+<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge"/>
+<link rel="shortcut icon" href="../images/change_doc/fun/logo.ico" type="image/x-icon">
+<link rel="stylesheet" href="../css/hb.css"/>
+<script type="text/javascript" src="../js/j3.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="../js/html5shiv.js"></script>
+	<script type="text/javascript" src="../js/j1.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../js/pc_mobile_skip.js"></script>
+<script type="text/javascript" src="../js/init.js"></script>
+<script type="text/javascript" src="../js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="../js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="../js/artTemplate.js"></script>
+<script type="text/javascript" src="../js/util.js"></script>
+<script type="text/javascript" src="../js/tplt.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/lqcx.min.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="headerPlace"></div>
+<script type="text/html" id="header">
+	<div class="header">
+		<div class="h_banner">
+			<div class="bg"></div>
+			<div class="cover">
+				<div class="l_con">
+					<img src="../images/change_doc/hb/logo.png" alt="" class="logo">
+					
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="nav_bar">
+			<div class="l_con">
+				<ul class="navs">
+					{{each categories as $nav}}
+							<li>
+								<a href="{{if isEmpty($nav.module)}}javascript:void(0);{{else}}{{$nav.url}}{{/if}}">{{$nav.name}}</a>
+								{{if !isEmpty($nav.childList)}}
+									<ul class="sub_navs">
+										{{each $nav.childList as $subNav $ind}}
+											<li><a href="{{$subNav.url}}">{{$subNav.name}}</a></li>
+										{{/each}}
+									</ul>
+								{{/if}}
+							</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</script>
+<script type="text/javascript">
+	$('body').on('click', '.search .btn_search', function() {
+		$(this).parents('form').toggleClass('close');
+		return false;
+	});
+	$.ajax({
+		url: $.url('f/newsCenter/ajax_get_category_and_link_list'),
+		async: false,
+		type: 'POST',
+		success: function(res) {
+			console.log(res)
+			if (res.state == 1) {
+				window.cdhlinks = $.out(res, 'data.cdhlinks') || [];
+				window.fLinks = $.out(res, 'data.links') || [];
+				window.university = $.out(res, 'data.university') || {};
+				tplt.draw('header', {
+					categories: $.out(res, 'data.categories') || []
+				});
+				afterDraw();
+			}
+		}
+	});
+
+	function afterDraw() {
+		// 控制请输入搜索关键词显隐
+		var v = $.IE.getVersion();
+		if ($.IE.isIE()) {
+			if (Number(v) >= 9) {
+				$('.header .search input').on('focus', function() {
+					$(this).attr('placeholder', '');
+				});
+				$('.header .search input').on('blur', function() {
+					$(this).attr('placeholder', '请输入搜索关键词');
+				});
+			}
+		}
+		// 控制搜索输入
+		$("#askText").keydown(function(e) {
+			if (e.keyCode == 13) {
+				searchAll();
+				return false;
+			}
+		});
+
+	};
+
+	function searchAll() {
+		var askText = $("#askText").val();
+		if ($("#askText").val() == "" ||
+			$("#askText").val().replace(/(^\s*)|(\s*$)/g, "") == "") {
+			alert("请输入搜索内容");
+		} else {
+			var pattern = /^[\w\u4e00-\u9fa5]+$/gi;
+			if (!pattern.test(askText)) {
+				alert("发送内容只能包含中文、数字、字母和下划线");
+				return;
+			}
+			$('.header .search').submit();
+		}
+	}
+</script>
+
+		<div class="body">
+			<div class="query_wrap">
+				<img src="../images/change_doc/fun/bg_lqcx.jpg"/>
+				<div class="l_con">
+					<div id="siteAddrPlace"></div>
+					<script type="text/html" id="siteAddr">
+						<div class="site_addr">
+							<div class="addr" style="width: 100%;">
+								<div>
+									<a href="{{go_home()}}"><i class="icon_home"></i>{{_config.home.name}}</a>
+									<span class="icon_line">-</span>
+									<a class="active" href="lqcx.html">录取查询</a>
+								</div>
+							</div>
+						</div>
+					</script>
+					<script type="text/javascript">
+						tplt.draw('siteAddr',{});
+					</script>
+					<div id="formPlace"></div>
+				</div>
+			</div>
+			<div id="tablePlace"></div>
+		</div>
+		<div id="footerPlace"></div>
+<script type="text/html" id="footer">
+	<div class="footer">
+		<div class="info">
+			<div class="l_con">
+				<div class="chunk_1">
+					<a href="javascript:void(0);">
+						<div class="logo"></div>
+					</a>
+				</div>
+				<div class="chunk_2">
+					<div class="tit">相关链接</div>
+					<div class="con" id="fLinksPlace">
+						<div class="list_1">
+							{{each fLinks}}
+								{{if $index < 6}}
+									<a href="{{$value.url}}">{{$value.title}}</a>
+								{{/if}}
+							{{/each}}
+						</div>
+					</div>
+				</div>
+				<div class="chunk_3">
+					<div class="tit">联系方式</div>
+					<div class="con">
+						{{if !isEmpty(university.phone)}}
+							电话：
+							{{each university.phone}}
+								{{$value}}
+								{{if $index != university.phone.length-1}},{{/if}}
+							{{/each}}<br>
+						{{/if}}
+						{{if !isEmpty(university.fax)}}
+							传真:
+							{{each university.fax}}
+								{{$value}}
+								{{if $index != university.fax.length-1}},{{/if}}
+							{{/each}}<br>
+						{{/if}}
+						{{if !isEmpty(university.email)}}
+							邮箱:
+							{{each university.email}}
+								{{$value}}
+								{{if $index != university.email.length-1}},{{/if}}
+							{{/each}}<br>
+						{{/if}}
+						{{if !isEmpty(university.address)}}
+							地址：
+							{{each university.address}}
+								{{$value}}
+							{{/each}}
+						{{/if}}
+					</div>
+				</div>
+				<div class="chunk_4">
+					<div class="code">
+						<img src="../images/change_doc/hb/code_wb.png" alt="" class="img">
+						<div class="txt">官方微信</div>
+					</div>
+					<div class="code">
+						<img src="../images/change_doc/hb/code_zb.png" alt="" class="img">
+						<div class="txt">本科招生</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<span class="copyright">
+				版权所有：{{university.copyright}}
+			</span>
+			&nbsp;&nbsp;
+			<span class="support">
+				技术支持：北京云智小橙科技有限公司
+			</span>
+		</div>
+	</div>
+</script>
+<script type="text/javascript">
+	tplt.draw('footer',{
+		fLinks: window.fLinks,
+		university: window.university
+	});
+</script>
+	</div>
+	<script type="text/html" id="form">
+		<div class="loginBlock {{if isEmpty(zhaoshengKsinf.remarks)}} no_tip {{/if}}" >
+			<div class="loginFunc">
+				{{ zhaoshengKsinf.ksmc }}
+			</div>
+			<form action="{{_config.domain}}f/lqcx_jg" method="post" class="queryForm">
+				<input class="token" type="hidden" name="Csrf-Token" value=""/>
+				<div class="validate-tip" style="display:none;">
+				</div>
+				<div class="account-number input-box">
+					<img src="../images/admit/login_icon_03.png" alt="" />
+					<input type="text" class="examNum" placeholder="请输入考生号" name="ksh"/>
+					<!-- <label for="" style="font-size:14px;color:red">错误</label> -->
+				</div>
+				<div class="account-number input-box">
+					<img src="../images/admit/login_icon_07.png" alt=""  style="top:14px;"/>
+					<input type="text" placeholder="请输入身份证号"  class="idNum" name="sfzh" autocomplete="off" style="overflow: hidden;"/>
+				</div>
+				<div class="account-number input-box">
+					<img src="../images/admit/login_icon_10.png" alt="" style="width:18px;top:10px;"/>
+					<input type="text" class="ver_code_input idenfyNum" name="validateCode" max-length="4" placeholder="请输入验证码" />
+					<img src="{{vCUrl}}" alt="" class="ver_code" onclick="$(this).attr('src',$.url('servlet/validateCodeServlet?' + new Date().getTime()));"/>
+				</div>
+				<div class="loginBtnBox">
+					<button type="button" class="submit">查询</button>
+					<button type="reset" class="reset">重置</button>
+				</div>
+			</form>
+			{{if !isEmpty(zhaoshengKsinf.remarks)}}
+				<dl class="pass-tip">
+					<div class="pass-tit">提示：</div>
+					<div>
+						{{ #zhaoshengKsinf.remarks}}
+					</div>
+				</dl>
+			{{/if}}
+		</div>
+	</script>
+	<script type="text/html" id="table">
+		{{if !isEmpty(zsState)}}
+			<div class="l_con" style="">
+				<div class="process_table_header_fixed"></div>
+				<div class="process_table_header">
+					<table class="process_table">
+						<colgroup>
+							{{each zsState[0]}}
+								<col width="{{$value.length*15}}"/>
+							{{/each}}
+						</colgroup>
+						<thead>
+							<tr>
+								<th colspan="{{zsState.length}}">{{schoolName}}{{nf}}年招生录取进程图提示</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="{{zsState.length}}" rowspan="2">
+									<p>
+										<span>录取未开始 <img src="../images/admit/red_icon.png" alt=""/></span>
+										<span>录取开始阅档中 <img src="../images/admit/green_icon.png" alt=""/></span>
+										<span>录取结束、可网上查询结果  <img src="../images/admit/blue_icon.png" alt=""/></span>
+										<span>通知书已寄出 <img src="../images/admit/tzs_icon.png" alt=""/></span>
+									</p>
+									<p class="red">{{#zsStateRemark}}</p>
+								</td>
+							</tr>
+							<tr>
+							</tr>
+							<!-- <tr>
+								<td colspan="{{zsState.length}}">
+									<p class="red">{{#zsStateRemark}}</p>
+								</td>
+							</tr> -->
+							<tr>
+								{{each zsState[0]}}
+									<td>{{$value}}</td>
+								{{/each}}
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="process_table_con">
+					<table class="process_table">
+						<colgroup>
+							{{each zsState[0]}}
+								<col width="{{$value.length*15}}"/>
+							{{/each}}
+						</colgroup>
+						<tbody>
+							{{each zsState}}
+								{{if $index!=0}}
+									<tr>
+										{{each $value as $item $key}}
+											<td class="province">{{#outVal($key,$item)}}</td>
+										{{/each}}
+									</tr>
+								{{/if}}
+							{{/each}}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		{{/if}}
+	</script>
+	<script type="text/javascript">
+		var startTime = 0;
+		var endTime = 9999999999999;
+		var canLqcx = false;
+		var data = {};
+
+		// template.config("escape", false);
+		template.helper('outVal',function(key,val){
+			var state = {
+				'0': '<img src="../images/admit/red_icon.png"/>',
+				'1': '<img src="../images/admit/green_icon.png"/>',
+				'2': '<img src="../images/admit/blue_icon.png"/>',
+				'3': '<img src="../images/admit/tzs_icon.png"/>'
+			}
+			if(key == 0){
+				return val;
+			}else{
+				return state[val] || '&nbsp';
+			}
+		});
+		$.ajax({
+			url: $.url('f/ajax_lqcx_param'),
+			async: false,
+			type: 'POST',
+			success: function(res){
+				if(res.state == 1){
+					data = res.data;
+					startTime = data.zhaoshengKsinf.cxstartdate;
+					endTime = data.zhaoshengKsinf.cxenddate;
+					canLqcx = data.canLqcx;
+					data.vCUrl = $.url('servlet/validateCodeServlet?' + new Date().getTime());
+					tplt.draw('form',data);
+					tplt.draw('table',data);
+				}
+			}
+		});
+		domInit();
+		function domInit(){
+			if($('.process_table_header').length == 0){
+				return false;
+			}
+			var top = $('.process_table_header').offset().top;
+			$('.process_table_header').height($('.process_table_header').height());
+			$(window).on('scroll',scrollFixed);
+			function scrollFixed(){
+				var stop = $(window).scrollTop();
+				if(stop>top){
+					if( $('.process_table_header_fixed .process_table').length === 0 ){
+						$('.process_table_header_fixed').append($('.process_table_header .process_table')).show();
+					}
+				}else{
+					if( $('.process_table_header_fixed .process_table').length > 0 ){
+						$('.process_table_header').append( $('.process_table_header_fixed').hide().find('.process_table') );
+					}
+				}
+			}
+		}
+	</script>
+	<script>
+		$(function(){
+			$('input[type="text"]').placeholder({isUseSpan:true});
+		});
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			var isBeginVal = false;
+			$('.queryForm .submit').on('click',function(){
+				isBeginVal = true;
+				var isSucc = required_vali();
+				if(!isSucc){
+					return false;
+				}
+				var requiredTxt = '';
+				if(isSucc){
+					var st = new Date(startTime.replace(/-/g,"/"));
+					var et = new Date(endTime.replace(/-/g,"/"));
+					var nt = new Date();
+					if(nt>et){
+						isSucc = false;
+						requiredTxt = '查询已经结束'
+					}
+					if(nt<st){
+						isSucc = false;
+						requiredTxt = '查询未开始'
+					}
+				}
+				if(isSucc){
+					if(!canLqcx){
+						requiredTxt = '成绩查询目前没有开放'
+					}
+				}
+				if(!isSucc){
+					$('.queryForm .validate-tip')
+						.html( requiredTxt )
+						.show();
+				}else{
+					$('.queryForm .validate-tip')
+						.html( '' )
+						.hide();
+						$('.queryForm').submit();
+
+				}
+			});
+			$('.queryForm .examNum,.queryForm .idNum,.queryForm .idenfyNum').on('blur',function(){
+				if(isBeginVal){
+					required_vali();
+				}
+			});
+			/**验证*/
+			/**必填项验证*/
+			function required_vali(){
+				var examNum = $('.queryForm .examNum').val();
+				var idNum = $('.queryForm .idNum').val();
+				var idenfyNum = $('.queryForm .idenfyNum').val();
+
+				var isSucc = true;
+				var requiredTxt = '请填写';
+				if( examNum.trim().length === 0 ){
+					isSucc = false;
+					requiredTxt += '考生号、';
+				}
+				if( idNum.trim().length === 0 ){
+					isSucc = false;
+					requiredTxt += '身份证号、';
+				}
+				if( idenfyNum.trim().length === 0 ){
+					isSucc = false;
+					requiredTxt += '验证码、'
+				}else if(idenfyNum.trim().length < 4){
+					if(requiredTxt=='请填写'){
+						isSucc = false;
+						requiredTxt = '验证码与输入不符，'
+					}
+				}else{
+					$.ajax({
+						url: $.url("servlet/validateCodeServlet"),
+						async: false,
+						type: 'POST',
+						data: {
+							validateCode: $('input[name="validateCode"]').val()
+						},
+						success: function(res){
+							if(res=='false'){
+								if(requiredTxt=='请填写'){
+									isSucc = false;
+									requiredTxt = '验证码与输入不符，';
+									$('form .ver_code').attr('src',$.url('servlet/validateCodeServlet?' + new Date().getTime()));
+								}
+							}
+						}
+					});
+				}
+				if(!isSucc){
+					requiredTxt = requiredTxt.substring(0,requiredTxt.length-1);
+					$('.queryForm .validate-tip')
+						.html( requiredTxt )
+						.show();
+				}else{
+					$('.queryForm .validate-tip')
+						.html( '' )
+						.hide();
+				}
+				return isSucc;
+			}
+		});
+	</script>
+</body>
+</html>

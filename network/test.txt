@@ -1,0 +1,1061 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	
+		<meta charset="utf-8">
+
+		<title>
+			
+成员 -21211835102 -曾振铭
+
+		</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Bootstrap -->
+    	<link href="/css/media/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    	<style type="text/css">
+	      	body {
+		        padding-top: 50px;
+		        padding-bottom: 40px;
+		        padding-left: 20px;
+		     }
+	      .sidebar-nav {
+	        padding: 100px 0;
+	      }
+	    </style>
+
+		<!--[if IE 6]>
+				<script type="text/javascript" src="http://letskillie6.googlecode.com/svn/trunk/letskillie6.zh_CN.pack.js"></script>
+		<![endif]--> 
+		<!--[if lt IE 7]>
+			<link type="text/css" href="/css/media/css/ltie7.css" rel="stylesheet" />
+		<![endif]--> 
+		
+		<!--[if IE 7]>
+			<link type="text/css" href="/css/media/css/ie7.css" rel="stylesheet" />
+		<![endif]--> 
+		<!--[if IE 8]>
+			<link type="text/css" href="/css/media/css/ie8.css" rel="stylesheet" />
+		<![endif]--> 
+		<script type="text/javascript" src="/js/media/js/tiny_mce/tiny_mce.js"></script>
+		<script type="text/javascript" src="/js/media/js/textareas.js"></script>	
+		
+			
+		<link rel="icon" href="/static/media/images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/static/media/images/favicon.ico">
+		<link rel="Bookmark" href="/static/media/images/favicon.ico">					
+		
+	</head>
+	
+<body>
+<!--[if !IE]><!-->
+
+	
+		  <!-- navbar -->
+	    <div class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="navbar-inner">
+	        <div class="container-fluid">
+	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </a>
+	         <!-- <a class="brand" href="/index"><img class="group-logo" src="/images/media/images/acmlogo.jpg" alt="LETS" width="80" height="80" /></a>
+	     -->
+	          <a class="brand" href="/course/114/summarize/">程序设计基础(2023-2024-1)</a>
+	          <div class="nav-collapse collapse">	          	
+		      	<ul class="nav pull-right">
+		            <li><a href="/courseuser/26054/course/114/courseuserdetail/" class="navbar-link">21211835102-曾振铭</a></li>  
+		            <li><a href="/index">返回</a></li>             
+		            <li><a href="/courseuser/26054/course/114/change/" class="navbar-link">修改</a></li>
+		            <li><a href="/user/logout/" class="navbar-link">注销</a></li> 
+		        </ul>		        
+	            <ul class="nav">
+	              <li class=><a href="/course/114/detail/">内容</a></li>
+	              <li class=active><a href="/courseuser/course/114/userlist/">成员</a></li>
+	              <li class=><a href="/judge/course/114/judgelist/?num=50">状态</a></li>
+	              <li class=><a href="/contest/course/114/contestlist/?state=RUNNING">课程比赛</a></li>
+	              <li class=><a href="/course/114/notice/">通知</a></li>	 
+	              		            
+	            </ul>
+
+	          </div><!--/.nav-collapse -->
+	        </div>
+	      </div>
+	    </div>
+	    <!-- end navbar -->
+	
+		
+	
+	<div class="row">
+		<div class="span12">
+		  <div>
+			<MARQUEE  BEHAVIOR=SCROLL DIRECTION=LEFT SCROLLAMOUT=6 SCROLLDELAY=200> 
+			<FONT COLOR=red size="1">
+			
+	通知内容
+	
+			</FONT></MARQUEE>
+		  </div>
+			<br />
+		  <div>
+			
+
+	
+
+	<div>
+		<table  class="table table-hover">
+		<thead>	
+			<tr>
+				<td>排名</td>
+				<td>用户名</td>
+				<td>姓名</td>
+				
+				<td>班级</td>
+				<td ><font color="red">解题</font></td>
+				<td >状态</td>
+				<td>正确率</td>
+				<td >代码行</td>
+				
+			</tr>
+		</thead>
+		<tbody>
+
+		
+			<tr style="background-color:#fff;">			
+				<td>1</td>
+				<td><a href="/courseuser/31285/course/114/courseuserdetail/"> 23211870126 </a> </td>
+				
+					
+					<td>张宇濠 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=576">
+					23大数据1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31285&result=AC"><font color="red">144</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31285"> 207 </a> </td>
+				<td>71%</td>
+				<td>5373</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>2</td>
+				<td><a href="/courseuser/30716/course/114/courseuserdetail/"> 23211860218 </a> </td>
+				
+					
+					<td>杨嘉诚 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30716&result=AC"><font color="red">142</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30716"> 357 </a> </td>
+				<td>41%</td>
+				<td>7329</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>3</td>
+				<td><a href="/courseuser/30998/course/114/courseuserdetail/"> 23211880205 </a> </td>
+				
+					
+					<td>毛烨超 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=585">
+					23人工智能2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30998&result=AC"><font color="red">134</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30998"> 176 </a> </td>
+				<td>76%</td>
+				<td>3163</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>4</td>
+				<td><a href="/courseuser/31286/course/114/courseuserdetail/"> 23211870130 </a> </td>
+				
+					
+					<td>彭希金 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=576">
+					23大数据1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31286&result=AC"><font color="red">133</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31286"> 261 </a> </td>
+				<td>53%</td>
+				<td>4183</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>5</td>
+				<td><a href="/courseuser/30904/course/114/courseuserdetail/"> 23211860123 </a> </td>
+				
+					
+					<td>陈一非 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30904&result=AC"><font color="red">128</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30904"> 215 </a> </td>
+				<td>62%</td>
+				<td>3812</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>6</td>
+				<td><a href="/courseuser/30717/course/114/courseuserdetail/"> 23211860209 </a> </td>
+				
+					
+					<td>盛飞扬 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30717&result=AC"><font color="red">122</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30717"> 161 </a> </td>
+				<td>78%</td>
+				<td>3987</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>7</td>
+				<td><a href="/courseuser/30746/course/114/courseuserdetail/"> 23211860222 </a> </td>
+				
+					
+					<td>刘卓涵 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30746&result=AC"><font color="red">104</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30746"> 149 </a> </td>
+				<td>70%</td>
+				<td>3127</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>8</td>
+				<td><a href="/courseuser/30715/course/114/courseuserdetail/"> 23211860210 </a> </td>
+				
+					
+					<td>蔡佳杰 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30715&result=AC"><font color="red">100</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30715"> 259 </a> </td>
+				<td>69%</td>
+				<td>5088</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>9</td>
+				<td><a href="/courseuser/30863/course/114/courseuserdetail/"> 23211860115 </a> </td>
+				
+					
+					<td>金传体 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30863&result=AC"><font color="red">95</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30863"> 131 </a> </td>
+				<td>73%</td>
+				<td>2382</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>10</td>
+				<td><a href="/courseuser/30902/course/114/courseuserdetail/"> 23211860128 </a> </td>
+				
+					
+					<td>秦筱竣 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30902&result=AC"><font color="red">94</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30902"> 156 </a> </td>
+				<td>62%</td>
+				<td>3018</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>11</td>
+				<td><a href="/courseuser/30899/course/114/courseuserdetail/"> 23211860125 </a> </td>
+				
+					
+					<td>孙泽宏 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30899&result=AC"><font color="red">86</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30899"> 132 </a> </td>
+				<td>65%</td>
+				<td>3054</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>12</td>
+				<td><a href="/courseuser/30876/course/114/courseuserdetail/"> 23211860107 </a> </td>
+				
+					
+					<td>刘翔 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30876&result=AC"><font color="red">82</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30876"> 141 </a> </td>
+				<td>58%</td>
+				<td>2820</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>13</td>
+				<td><a href="/courseuser/31312/course/114/courseuserdetail/"> 23211870111 </a> </td>
+				
+					
+					<td>姜沐辰 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=576">
+					23大数据1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31312&result=AC"><font color="red">82</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31312"> 179 </a> </td>
+				<td>46%</td>
+				<td>4178</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>14</td>
+				<td><a href="/courseuser/31140/course/114/courseuserdetail/"> 23211870310 </a> </td>
+				
+					
+					<td>韦乾平 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=586">
+					23大数据3</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31140&result=AC"><font color="red">78</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31140"> 104 </a> </td>
+				<td>75%</td>
+				<td>2185</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>15</td>
+				<td><a href="/courseuser/30881/course/114/courseuserdetail/"> 23211860103 </a> </td>
+				
+					
+					<td>杨彩春 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30881&result=AC"><font color="red">76</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30881"> 147 </a> </td>
+				<td>53%</td>
+				<td>2399</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>16</td>
+				<td><a href="/courseuser/30871/course/114/courseuserdetail/"> 23211860106 </a> </td>
+				
+					
+					<td>陈蒋龙 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30871&result=AC"><font color="red">75</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30871"> 161 </a> </td>
+				<td>46%</td>
+				<td>3430</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>17</td>
+				<td><a href="/courseuser/30900/course/114/courseuserdetail/"> 23211860122 </a> </td>
+				
+					
+					<td>潘俊羽 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30900&result=AC"><font color="red">75</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30900"> 171 </a> </td>
+				<td>44%</td>
+				<td>3120</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>18</td>
+				<td><a href="/courseuser/30724/course/114/courseuserdetail/"> 23211860242 </a> </td>
+				
+					
+					<td>夏雪 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30724&result=AC"><font color="red">73</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30724"> 151 </a> </td>
+				<td>48%</td>
+				<td>2836</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>19</td>
+				<td><a href="/courseuser/30892/course/114/courseuserdetail/"> 23211860124 </a> </td>
+				
+					
+					<td>杨敏欢 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30892&result=AC"><font color="red">71</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30892"> 134 </a> </td>
+				<td>61%</td>
+				<td>2741</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>20</td>
+				<td><a href="/courseuser/30729/course/114/courseuserdetail/"> 23211860204 </a> </td>
+				
+					
+					<td>赵旭华 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30729&result=AC"><font color="red">71</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30729"> 140 </a> </td>
+				<td>50%</td>
+				<td>3097</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>21</td>
+				<td><a href="/courseuser/30869/course/114/courseuserdetail/"> 23211860108 </a> </td>
+				
+					
+					<td>郑浩 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30869&result=AC"><font color="red">70</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30869"> 105 </a> </td>
+				<td>66%</td>
+				<td>1719</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>22</td>
+				<td><a href="/courseuser/30906/course/114/courseuserdetail/"> 23211860126 </a> </td>
+				
+					
+					<td>俞思宇 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30906&result=AC"><font color="red">70</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30906"> 121 </a> </td>
+				<td>59%</td>
+				<td>1967</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>23</td>
+				<td><a href="/courseuser/30719/course/114/courseuserdetail/"> 23211860208 </a> </td>
+				
+					
+					<td>周礼泽 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30719&result=AC"><font color="red">69</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30719"> 104 </a> </td>
+				<td>67%</td>
+				<td>1526</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>24</td>
+				<td><a href="/courseuser/30736/course/114/courseuserdetail/"> 23211860235 </a> </td>
+				
+					
+					<td>黄佳怡 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30736&result=AC"><font color="red">69</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30736"> 155 </a> </td>
+				<td>46%</td>
+				<td>3063</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>25</td>
+				<td><a href="/courseuser/30897/course/114/courseuserdetail/"> 23211860131 </a> </td>
+				
+					
+					<td>廖小文 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30897&result=AC"><font color="red">68</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30897"> 130 </a> </td>
+				<td>55%</td>
+				<td>2501</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>26</td>
+				<td><a href="/courseuser/30731/course/114/courseuserdetail/"> 23211860220 </a> </td>
+				
+					
+					<td>颜成吉 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30731&result=AC"><font color="red">66</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30731"> 111 </a> </td>
+				<td>62%</td>
+				<td>2206</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>27</td>
+				<td><a href="/courseuser/31290/course/114/courseuserdetail/"> 23211870102 </a> </td>
+				
+					
+					<td>徐王晶 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=576">
+					23大数据1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31290&result=AC"><font color="red">66</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31290"> 120 </a> </td>
+				<td>56%</td>
+				<td>3212</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>28</td>
+				<td><a href="/courseuser/30741/course/114/courseuserdetail/"> 23211860228 </a> </td>
+				
+					
+					<td>林奕宇 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30741&result=AC"><font color="red">65</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30741"> 93 </a> </td>
+				<td>73%</td>
+				<td>1360</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>29</td>
+				<td><a href="/courseuser/30753/course/114/courseuserdetail/"> 23211860238 </a> </td>
+				
+					
+					<td>王珏瑞 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30753&result=AC"><font color="red">65</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30753"> 97 </a> </td>
+				<td>69%</td>
+				<td>1722</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>30</td>
+				<td><a href="/courseuser/30877/course/114/courseuserdetail/"> 23211860129 </a> </td>
+				
+					
+					<td>林小甜 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30877&result=AC"><font color="red">65</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30877"> 117 </a> </td>
+				<td>57%</td>
+				<td>1808</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>31</td>
+				<td><a href="/courseuser/30750/course/114/courseuserdetail/"> 23211860202 </a> </td>
+				
+					
+					<td>谢家奇 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30750&result=AC"><font color="red">64</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30750"> 107 </a> </td>
+				<td>60%</td>
+				<td>1551</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>32</td>
+				<td><a href="/courseuser/30879/course/114/courseuserdetail/"> 23211860145 </a> </td>
+				
+					
+					<td>金定邦 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30879&result=AC"><font color="red">64</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30879"> 113 </a> </td>
+				<td>58%</td>
+				<td>1881</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>33</td>
+				<td><a href="/courseuser/30730/course/114/courseuserdetail/"> 23211860241 </a> </td>
+				
+					
+					<td>缪宇航 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30730&result=AC"><font color="red">63</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30730"> 119 </a> </td>
+				<td>55%</td>
+				<td>2561</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>34</td>
+				<td><a href="/courseuser/30870/course/114/courseuserdetail/"> 23211860142 </a> </td>
+				
+					
+					<td>郑雯瀚 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30870&result=AC"><font color="red">63</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30870"> 128 </a> </td>
+				<td>50%</td>
+				<td>3141</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>35</td>
+				<td><a href="/courseuser/31020/course/114/courseuserdetail/"> 23211860219 </a> </td>
+				
+					
+					<td>蔡好雨 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31020&result=AC"><font color="red">62</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=31020"> 74 </a> </td>
+				<td>83%</td>
+				<td>1227</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>36</td>
+				<td><a href="/courseuser/30886/course/114/courseuserdetail/"> 23211860132 </a> </td>
+				
+					
+					<td>金博奇 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30886&result=AC"><font color="red">62</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30886"> 79 </a> </td>
+				<td>82%</td>
+				<td>1198</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>37</td>
+				<td><a href="/courseuser/30885/course/114/courseuserdetail/"> 23211860114 </a> </td>
+				
+					
+					<td>曹海华 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30885&result=AC"><font color="red">61</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30885"> 89 </a> </td>
+				<td>71%</td>
+				<td>1319</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>38</td>
+				<td><a href="/courseuser/30735/course/114/courseuserdetail/"> 23211860221 </a> </td>
+				
+					
+					<td>李珊 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30735&result=AC"><font color="red">61</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30735"> 102 </a> </td>
+				<td>62%</td>
+				<td>1867</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>39</td>
+				<td><a href="/courseuser/30743/course/114/courseuserdetail/"> 23211860201 </a> </td>
+				
+					
+					<td>黄一轩 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30743&result=AC"><font color="red">61</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30743"> 118 </a> </td>
+				<td>55%</td>
+				<td>2010</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>40</td>
+				<td><a href="/courseuser/30880/course/114/courseuserdetail/"> 23211860134 </a> </td>
+				
+					
+					<td>张函旋 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30880&result=AC"><font color="red">60</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30880"> 86 </a> </td>
+				<td>72%</td>
+				<td>1568</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>41</td>
+				<td><a href="/courseuser/30723/course/114/courseuserdetail/"> 23211860240 </a> </td>
+				
+					
+					<td>徐靖航 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30723&result=AC"><font color="red">59</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30723"> 72 </a> </td>
+				<td>81%</td>
+				<td>1080</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>42</td>
+				<td><a href="/courseuser/30864/course/114/courseuserdetail/"> 23211860118 </a> </td>
+				
+					
+					<td>唐立 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30864&result=AC"><font color="red">59</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30864"> 83 </a> </td>
+				<td>71%</td>
+				<td>1493</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>43</td>
+				<td><a href="/courseuser/30726/course/114/courseuserdetail/"> 23211860227 </a> </td>
+				
+					
+					<td>詹仁涵 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30726&result=AC"><font color="red">59</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30726"> 98 </a> </td>
+				<td>63%</td>
+				<td>1628</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>44</td>
+				<td><a href="/courseuser/30875/course/114/courseuserdetail/"> 23211860113 </a> </td>
+				
+					
+					<td>杨春翔 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30875&result=AC"><font color="red">59</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30875"> 139 </a> </td>
+				<td>42%</td>
+				<td>3100</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>45</td>
+				<td><a href="/courseuser/30725/course/114/courseuserdetail/"> 23211860243 </a> </td>
+				
+					
+					<td>张吴勇波 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=579">
+					23计算机2</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30725&result=AC"><font color="red">59</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30725"> 210 </a> </td>
+				<td>29%</td>
+				<td>4914</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>46</td>
+				<td><a href="/courseuser/30867/course/114/courseuserdetail/"> 23211860112 </a> </td>
+				
+					
+					<td>张晨 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30867&result=AC"><font color="red">58</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30867"> 77 </a> </td>
+				<td>76%</td>
+				<td>1065</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>47</td>
+				<td><a href="/courseuser/30884/course/114/courseuserdetail/"> 23211860120 </a> </td>
+				
+					
+					<td>陈锐 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30884&result=AC"><font color="red">58</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30884"> 93 </a> </td>
+				<td>65%</td>
+				<td>1319</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>48</td>
+				<td><a href="/courseuser/30898/course/114/courseuserdetail/"> 23211860101 </a> </td>
+				
+					
+					<td>叶增松 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30898&result=AC"><font color="red">58</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30898"> 120 </a> </td>
+				<td>49%</td>
+				<td>2272</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#fff;">			
+				<td>49</td>
+				<td><a href="/courseuser/30874/course/114/courseuserdetail/"> 23211860141 </a> </td>
+				
+					
+					<td>丁宇航 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30874&result=AC"><font color="red">57</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30874"> 94 </a> </td>
+				<td>60%</td>
+				<td>1567</td>
+				    
+			</tr>
+		
+			<tr style="background-color:#eee;">			
+				<td>50</td>
+				<td><a href="/courseuser/30882/course/114/courseuserdetail/"> 23211860139 </a> </td>
+				
+					
+					<td>朱雨乐 </td>
+					
+				
+							
+				<td><a href="/courseuser/course/114/userlist/?grade=578">
+					23计算机1</a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30882&result=AC"><font color="red">56</font></a></td>
+				<td><a href="/judge/course/114/judgelist/?userprofile=30882"> 100 </a> </td>
+				<td>56%</td>
+				<td>1295</td>
+				    
+			</tr>
+		
+	</tbody>
+	</table>
+
+		  </div>
+
+		  <div id="navigator">
+					
+	<div class="wrapper">
+				
+		<p class="page-bar">
+			<span class="pages">
+				
+					current:1/11
+				 <a href="./?course=114 程序设计基础(2023-2024-1) 0&amp;page=2">后一页</a>	
+			</span>
+				
+		</p>					
+			
+	</div>		
+
+		  </div>
+
+			<div id="footer" class="navbar-fixed-bottom">
+		      <div class="container">
+		        <p class="muted credit">Copyright © 2007-2023. Designer&Developer:<a href="mailto:mingcaiyu@gmail.com" >ymc</a></a>.</p>
+		      </div>
+		  </div>
+		</div>
+	</div>
+ 	<script src="/css/media/bootstrap/js/jquery-latest.js"></script>
+    <script src="/css/media/bootstrap/js/bootstrap.js"></script>
+    <!--<![endif]-->
+</body>
+
+</html>

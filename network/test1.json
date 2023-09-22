@@ -1,0 +1,502 @@
+[
+    {
+        "rank": "1",
+        "username": " 23211870126 ",
+        "name": "张宇濠 ",
+        "class": "\n\t\t\t\t\t23大数据1",
+        "solved_problems": "144",
+        "status": " 207 ",
+        "correct_rate": "71%",
+        "line_of_code": "5373"
+    },
+    {
+        "rank": "2",
+        "username": " 23211860218 ",
+        "name": "杨嘉诚 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "142",
+        "status": " 357 ",
+        "correct_rate": "41%",
+        "line_of_code": "7329"
+    },
+    {
+        "rank": "3",
+        "username": " 23211880205 ",
+        "name": "毛烨超 ",
+        "class": "\n\t\t\t\t\t23人工智能2",
+        "solved_problems": "131",
+        "status": " 173 ",
+        "correct_rate": "75%",
+        "line_of_code": "3137"
+    },
+    {
+        "rank": "4",
+        "username": " 23211870130 ",
+        "name": "彭希金 ",
+        "class": "\n\t\t\t\t\t23大数据1",
+        "solved_problems": "131",
+        "status": " 259 ",
+        "correct_rate": "52%",
+        "line_of_code": "4159"
+    },
+    {
+        "rank": "5",
+        "username": " 23211860123 ",
+        "name": "陈一非 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "128",
+        "status": " 215 ",
+        "correct_rate": "62%",
+        "line_of_code": "3812"
+    },
+    {
+        "rank": "6",
+        "username": " 23211860209 ",
+        "name": "盛飞扬 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "122",
+        "status": " 161 ",
+        "correct_rate": "78%",
+        "line_of_code": "3987"
+    },
+    {
+        "rank": "7",
+        "username": " 23211860222 ",
+        "name": "刘卓涵 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "104",
+        "status": " 149 ",
+        "correct_rate": "70%",
+        "line_of_code": "3127"
+    },
+    {
+        "rank": "8",
+        "username": " 23211860210 ",
+        "name": "蔡佳杰 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "100",
+        "status": " 259 ",
+        "correct_rate": "69%",
+        "line_of_code": "5088"
+    },
+    {
+        "rank": "9",
+        "username": " 23211860115 ",
+        "name": "金传体 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "95",
+        "status": " 131 ",
+        "correct_rate": "73%",
+        "line_of_code": "2382"
+    },
+    {
+        "rank": "10",
+        "username": " 23211860128 ",
+        "name": "秦筱竣 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "94",
+        "status": " 156 ",
+        "correct_rate": "62%",
+        "line_of_code": "3018"
+    },
+    {
+        "rank": "11",
+        "username": " 23211860125 ",
+        "name": "孙泽宏 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "86",
+        "status": " 132 ",
+        "correct_rate": "65%",
+        "line_of_code": "3054"
+    },
+    {
+        "rank": "12",
+        "username": " 23211860107 ",
+        "name": "刘翔 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "82",
+        "status": " 141 ",
+        "correct_rate": "58%",
+        "line_of_code": "2820"
+    },
+    {
+        "rank": "13",
+        "username": " 23211870111 ",
+        "name": "姜沐辰 ",
+        "class": "\n\t\t\t\t\t23大数据1",
+        "solved_problems": "82",
+        "status": " 179 ",
+        "correct_rate": "46%",
+        "line_of_code": "4178"
+    },
+    {
+        "rank": "14",
+        "username": " 23211870310 ",
+        "name": "韦乾平 ",
+        "class": "\n\t\t\t\t\t23大数据3",
+        "solved_problems": "78",
+        "status": " 104 ",
+        "correct_rate": "75%",
+        "line_of_code": "2185"
+    },
+    {
+        "rank": "15",
+        "username": " 23211860103 ",
+        "name": "杨彩春 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "76",
+        "status": " 147 ",
+        "correct_rate": "53%",
+        "line_of_code": "2399"
+    },
+    {
+        "rank": "16",
+        "username": " 23211860106 ",
+        "name": "陈蒋龙 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "75",
+        "status": " 161 ",
+        "correct_rate": "46%",
+        "line_of_code": "3430"
+    },
+    {
+        "rank": "17",
+        "username": " 23211860122 ",
+        "name": "潘俊羽 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "75",
+        "status": " 171 ",
+        "correct_rate": "44%",
+        "line_of_code": "3120"
+    },
+    {
+        "rank": "18",
+        "username": " 23211860242 ",
+        "name": "夏雪 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "72",
+        "status": " 150 ",
+        "correct_rate": "48%",
+        "line_of_code": "2823"
+    },
+    {
+        "rank": "19",
+        "username": " 23211860124 ",
+        "name": "杨敏欢 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "71",
+        "status": " 134 ",
+        "correct_rate": "61%",
+        "line_of_code": "2741"
+    },
+    {
+        "rank": "20",
+        "username": " 23211860204 ",
+        "name": "赵旭华 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "71",
+        "status": " 140 ",
+        "correct_rate": "50%",
+        "line_of_code": "3097"
+    },
+    {
+        "rank": "21",
+        "username": " 23211860108 ",
+        "name": "郑浩 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "70",
+        "status": " 105 ",
+        "correct_rate": "66%",
+        "line_of_code": "1719"
+    },
+    {
+        "rank": "22",
+        "username": " 23211860126 ",
+        "name": "俞思宇 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "70",
+        "status": " 121 ",
+        "correct_rate": "59%",
+        "line_of_code": "1967"
+    },
+    {
+        "rank": "23",
+        "username": " 23211860208 ",
+        "name": "周礼泽 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "69",
+        "status": " 104 ",
+        "correct_rate": "67%",
+        "line_of_code": "1526"
+    },
+    {
+        "rank": "24",
+        "username": " 23211860235 ",
+        "name": "黄佳怡 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "69",
+        "status": " 155 ",
+        "correct_rate": "46%",
+        "line_of_code": "3063"
+    },
+    {
+        "rank": "25",
+        "username": " 23211860131 ",
+        "name": "廖小文 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "68",
+        "status": " 130 ",
+        "correct_rate": "55%",
+        "line_of_code": "2501"
+    },
+    {
+        "rank": "26",
+        "username": " 23211860220 ",
+        "name": "颜成吉 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "66",
+        "status": " 111 ",
+        "correct_rate": "62%",
+        "line_of_code": "2206"
+    },
+    {
+        "rank": "27",
+        "username": " 23211870102 ",
+        "name": "徐王晶 ",
+        "class": "\n\t\t\t\t\t23大数据1",
+        "solved_problems": "66",
+        "status": " 120 ",
+        "correct_rate": "56%",
+        "line_of_code": "3212"
+    },
+    {
+        "rank": "28",
+        "username": " 23211860238 ",
+        "name": "王珏瑞 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "65",
+        "status": " 97 ",
+        "correct_rate": "69%",
+        "line_of_code": "1722"
+    },
+    {
+        "rank": "29",
+        "username": " 23211860129 ",
+        "name": "林小甜 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "65",
+        "status": " 117 ",
+        "correct_rate": "57%",
+        "line_of_code": "1808"
+    },
+    {
+        "rank": "30",
+        "username": " 23211860228 ",
+        "name": "林奕宇 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "64",
+        "status": " 92 ",
+        "correct_rate": "72%",
+        "line_of_code": "1328"
+    },
+    {
+        "rank": "31",
+        "username": " 23211860202 ",
+        "name": "谢家奇 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "64",
+        "status": " 107 ",
+        "correct_rate": "60%",
+        "line_of_code": "1551"
+    },
+    {
+        "rank": "32",
+        "username": " 23211860145 ",
+        "name": "金定邦 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "64",
+        "status": " 113 ",
+        "correct_rate": "58%",
+        "line_of_code": "1881"
+    },
+    {
+        "rank": "33",
+        "username": " 23211860241 ",
+        "name": "缪宇航 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "63",
+        "status": " 119 ",
+        "correct_rate": "55%",
+        "line_of_code": "2561"
+    },
+    {
+        "rank": "34",
+        "username": " 23211860142 ",
+        "name": "郑雯瀚 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "63",
+        "status": " 128 ",
+        "correct_rate": "50%",
+        "line_of_code": "3141"
+    },
+    {
+        "rank": "35",
+        "username": " 23211860219 ",
+        "name": "蔡好雨 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "62",
+        "status": " 74 ",
+        "correct_rate": "83%",
+        "line_of_code": "1227"
+    },
+    {
+        "rank": "36",
+        "username": " 23211860132 ",
+        "name": "金博奇 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "62",
+        "status": " 79 ",
+        "correct_rate": "82%",
+        "line_of_code": "1198"
+    },
+    {
+        "rank": "37",
+        "username": " 23211860114 ",
+        "name": "曹海华 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "61",
+        "status": " 89 ",
+        "correct_rate": "71%",
+        "line_of_code": "1319"
+    },
+    {
+        "rank": "38",
+        "username": " 23211860221 ",
+        "name": "李珊 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "61",
+        "status": " 102 ",
+        "correct_rate": "62%",
+        "line_of_code": "1867"
+    },
+    {
+        "rank": "39",
+        "username": " 23211860201 ",
+        "name": "黄一轩 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "61",
+        "status": " 118 ",
+        "correct_rate": "55%",
+        "line_of_code": "2010"
+    },
+    {
+        "rank": "40",
+        "username": " 23211860134 ",
+        "name": "张函旋 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "60",
+        "status": " 86 ",
+        "correct_rate": "72%",
+        "line_of_code": "1568"
+    },
+    {
+        "rank": "41",
+        "username": " 23211860240 ",
+        "name": "徐靖航 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "59",
+        "status": " 72 ",
+        "correct_rate": "81%",
+        "line_of_code": "1080"
+    },
+    {
+        "rank": "42",
+        "username": " 23211860118 ",
+        "name": "唐立 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "59",
+        "status": " 83 ",
+        "correct_rate": "71%",
+        "line_of_code": "1493"
+    },
+    {
+        "rank": "43",
+        "username": " 23211860227 ",
+        "name": "詹仁涵 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "59",
+        "status": " 98 ",
+        "correct_rate": "63%",
+        "line_of_code": "1628"
+    },
+    {
+        "rank": "44",
+        "username": " 23211860113 ",
+        "name": "杨春翔 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "59",
+        "status": " 139 ",
+        "correct_rate": "42%",
+        "line_of_code": "3100"
+    },
+    {
+        "rank": "45",
+        "username": " 23211860243 ",
+        "name": "张吴勇波 ",
+        "class": "\n\t\t\t\t\t23计算机2",
+        "solved_problems": "59",
+        "status": " 210 ",
+        "correct_rate": "29%",
+        "line_of_code": "4914"
+    },
+    {
+        "rank": "46",
+        "username": " 23211860112 ",
+        "name": "张晨 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "58",
+        "status": " 77 ",
+        "correct_rate": "76%",
+        "line_of_code": "1065"
+    },
+    {
+        "rank": "47",
+        "username": " 23211860120 ",
+        "name": "陈锐 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "58",
+        "status": " 93 ",
+        "correct_rate": "65%",
+        "line_of_code": "1319"
+    },
+    {
+        "rank": "48",
+        "username": " 23211860101 ",
+        "name": "叶增松 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "58",
+        "status": " 120 ",
+        "correct_rate": "49%",
+        "line_of_code": "2272"
+    },
+    {
+        "rank": "49",
+        "username": " 23211860141 ",
+        "name": "丁宇航 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "57",
+        "status": " 94 ",
+        "correct_rate": "60%",
+        "line_of_code": "1567"
+    },
+    {
+        "rank": "50",
+        "username": " 23211860139 ",
+        "name": "朱雨乐 ",
+        "class": "\n\t\t\t\t\t23计算机1",
+        "solved_problems": "56",
+        "status": " 100 ",
+        "correct_rate": "56%",
+        "line_of_code": "1295"
+    }
+]
